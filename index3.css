@@ -18,11 +18,11 @@ strong, em {
       background-size: cover ;
      background-position: top;
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgrnd.webp);
-     height: 150vh;
+     height: 80vh;
      width:95%;
 
      		}
-h1 ,h2,h3,h4 ,h5,h6 {
+h1 ,h2,h3,h4 ,h5,h6  {
 	background:linear-gradient( to right,  #A8DEE0  20% ,#fbc78d 80% );
 	-webkit-background-clip:Text ;
 	-webkit-text-fill-color :transparent; }
