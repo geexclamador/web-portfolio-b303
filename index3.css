@@ -40,21 +40,37 @@ h1 ,h2,h3,h4 ,h5,h6 {
 
 
 /*CONTACT SECTION*/
-.contacts {
-	max-width: 100%;
-	margin:50px auto;
-	position: relative;box-shadow: 0 10 px 30px 0px rgba(0,0,0,0.1);
-	padding:30px;
-	height:100vh;
 
+
+.submit-btn {
+	
+	background-color: skyblue;
 }
 
-.contacts .title {
+.hover:hover {transform: scale(1.15);}
+.hover{transition: all 0.3s;
+	
+}
+
+.get-intouch {
+	max-width:800px;
+	margin:50px auto;
+	position: relative;
+	box-shadow:0 10px 30px 0px rgba(0, 0, 0, 0.1);
+	padding:30px;
+}
+
+.get-intouch .title {
 	text-align:center;
 	letter-spacing: 3px;
 	font-size: 2em;
 	line-height: 48px;
-	color: black	;
+	padding-bottom: 20px;
+	color: #5543ca;
+	background:linear-gradient( to right,  #A8DEE0  20% ,#fbc78d 80% );
+	-webkit-background-clip:Text ;
+	-webkit-text-fill-color :transparent; 
+
 }
 
 .contact-form .form-field{
@@ -72,21 +88,4 @@ h1 ,h2,h3,h4 ,h5,h6 {
 	line-height:26px;
 	font-weight: 400pxs;
 }
-
-.submit-btn {
-	
-	background-color: skyblue;
-}
-
-.hover:hover {transform: scale(1.15);}
-.hover{transition: all 0.3s;
-	
-}
-.get-intouch {
-	border:solid black;
-	padding :2px
-	background:linear-gradient( to right,  #A8DEE0  20% ,#fbc78d 80% );
-	-webkit-background-clip:Text ;
-	-webkit-text-fill-color :transparent; }
-
 /*end of contact section*/
