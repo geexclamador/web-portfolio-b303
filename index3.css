@@ -18,8 +18,9 @@ strong, em {
       background-size: cover ;
      background-position: top;
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgrnd.webp);
-     height: 100vh;
+     height: 150vh;
      width:95%;
+
      		}
 h1 ,h2,h3,h4 ,h5,h6 {
 	background:linear-gradient( to right,  #A8DEE0  20% ,#fbc78d 80% );
@@ -28,7 +29,7 @@ h1 ,h2,h3,h4 ,h5,h6 {
 /*landing page	*/
 /*end of landing page*/
 #landing-page {
-	height:80vh;
+	height:150vh;
 	margin:4rem;
 
 }
