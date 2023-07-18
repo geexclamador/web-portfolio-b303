@@ -29,7 +29,7 @@ h1 ,h2,h3,h4 ,h5,h6  {
 /*landing page	*/
 /*end of landing page*/
 #landing-page {
-	height:150vh;
+	height:80vh;
 	margin:4rem;
 
 }
@@ -94,3 +94,13 @@ h1 ,h2,h3,h4 ,h5,h6  {
 
 
 /*end of contact section*/
+/*animations*/
+
+/*.fade-in-out{
+	opacity:0;
+	transition: opacity 2s  ease;
+}
+
+.fade-in-out:hover{
+	opacity:1;
+}*/
